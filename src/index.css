@@ -1,0 +1,73 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Inter;
+}
+
+.header-section {
+  height: 3em;
+  background: #F55A5A;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+  font-size: 1.5em;
+}
+
+.travel-section {
+  padding: 8em;
+  display: flex;
+  flex-direction: column;
+  gap: 5em;
+}
+
+.travel-card {
+  display: flex;
+  gap: 3em;
+}
+
+.card-image {
+  max-width: 15em;
+  border-radius: 1em;
+}
+
+.map-locationIcon {
+  color: #F55A5A;
+  font-size: 1.8em;
+}
+
+.map-country{
+  letter-spacing: 0.17em;
+  color: #2B283A;
+}
+
+.map-location {
+  text-decoration: none;
+  color: #918E9B;
+  margin-left: 2em;
+}
+
+.card-info--map {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 0.5em;
+}
+
+.card-place {
+  color: #2B283A;
+  font-size: 2em;
+  margin-top: 0;
+}
+
+.card-date {
+  font-size: 0.9em;
+}
+
+.card-description{
+  font-size: 0.8em;
+}
